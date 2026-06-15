@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chandrashekar's AI & Data Science portfolio showcasing projects, skills, education, certifications, and contact information." />
+  <title>Chandrashekar | AI & Data Science Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-RXf+QSDCUQs4aR0pj13mH7+8tb7PhT4b6Kf3a5jz7+j+Pp4osYBvCi31P+vU4aMxdW4RzSFReLEOg1U2WZQfwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Chandrashekar</a>
+      <nav class="site-nav" id="siteNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Chandrashekar</h1>
+          <p class="hero-title">AI & Data Science Engineering Student</p>
+          <p class="hero-type"><span id="typedText"></span><span class="cursor">|</span></p>
+          <p class="hero-description">
+            Passionate about machine learning, data-driven systems, and intelligent automation. Building smart solutions for real-world problems and exploring every opportunity in AI and IoT.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-media reveal">
+          <div class="profile-card">
+            <img src="https://via.placeholder.com/400x400.png?text=Profile+Image" alt="Profile image of Chandrashekar" />
+            <div class="profile-badge">
+              <div>
+                <p>AI & DS Student</p>
+                <strong>Future Software Engineer</strong>
+              </div>
+              <span><i class="fa-solid fa-brain"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-about" id="about">
+      <div class="container section-grid reveal-group">
+        <div class="section-info">
+          <span class="section-label">About Me</span>
+          <h2>Who I Am</h2>
+          <p>
+            I am an Artificial Intelligence and Data Science Engineering student focused on building intelligent applications with a strong foundation in programming, machine learning, and cloud-enabled automation.
+          </p>
+          <p>
+            I enjoy collaborating on practical projects, solving challenging problems, and creating solutions that improve user experiences through data-driven decision making.
+          </p>
+          <a class="btn btn-primary" href="#education">Learn More</a>
+        </div>
+        <div class="about-cards">
+          <div class="info-card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Academic Focus</h3>
+            <p>B.E. in Artificial Intelligence & Data Science</p>
+          </div>
+          <div class="info-card">
+            <i class="fa-solid fa-lightbulb"></i>
+            <h3>My Approach</h3>
+            <p>Practical, analytical, and creative with a focus on modern AI tooling.</p>
+          </div>
+          <div class="info-card">
+            <i class="fa-solid fa-rocket"></i>
+            <h3>Career Goal</h3>
+            <p>Build scalable systems for intelligent data analysis, automation, and edge solutions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-education" id="education">
+      <div class="container reveal-group">
+        <span class="section-label">Education</span>
+        <h2>Academic Journey</h2>
+        <div class="education-card reveal">
+          <div>
+            <span class="degree-label">B.E. in AI & DS</span>
+            <h3>Professional Engineering College</h3>
+            <p>Advanced coursework in machine learning, data mining, IoT systems, and software development.</p>
+          </div>
+          <div class="education-meta">
+            <p>2022 - Present</p>
+            <p>Relevant coursework: Machine Learning, Data Structures, IoT, Web Development</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-skills" id="skills">
+      <div class="container reveal-group">
+        <span class="section-label">Skills</span>
+        <h2>Technical Strengths</h2>
+        <div class="skills-grid reveal">
+          <div class="skill-pill">Python</div>
+          <div class="skill-pill">C</div>
+          <div class="skill-pill">Java</div>
+          <div class="skill-pill">Machine Learning</div>
+          <div class="skill-pill">Data Science</div>
+          <div class="skill-pill">IoT</div>
+          <div class="skill-pill">Web Development</div>
+          <div class="skill-pill">Data Analytics</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-projects" id="projects">
+      <div class="container reveal-group">
+        <span class="section-label">Projects</span>
+        <h2>Selected Work</h2>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-tag">Crashsense</div>
+            <h3>Accident Detection Platform</h3>
+            <p>Real-time vehicle crash detection using sensor fusion and alert automation for safer transportation monitoring.</p>
+            <div class="project-meta">
+              <span><i class="fa-solid fa-microchip"></i> Embedded Systems</span>
+              <span><i class="fa-solid fa-robot"></i> Machine Learning</span>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-tag">Smart Garage</div>
+            <h3>RFID-Based Garage Automation</h3>
+            <p>An intelligent garage access control system using RFID authentication, remote monitoring, and secure entry logic.</p>
+            <div class="project-meta">
+              <span><i class="fa-solid fa-wifi"></i> IoT</span>
+              <span><i class="fa-solid fa-shield-halved"></i> Security</span>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-tag">AI Insights</div>
+            <h3>Data Science Dashboard</h3>
+            <p>Interactive data dashboard focused on visualization, trend analysis, and predictive insights for student projects.</p>
+            <div class="project-meta">
+              <span><i class="fa-solid fa-chart-line"></i> Visualization</span>
+              <span><i class="fa-solid fa-database"></i> Data Analytics</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-certifications" id="certifications">
+      <div class="container reveal-group">
+        <span class="section-label">Certifications</span>
+        <h2>Professional Certifications</h2>
+        <div class="certifications-grid reveal">
+          <div class="cert-card">
+            <i class="fa-solid fa-certificate"></i>
+            <h3>AI Foundations</h3>
+            <p>Online training in machine learning, data preprocessing, and intelligent model design.</p>
+          </div>
+          <div class="cert-card">
+            <i class="fa-solid fa-certificate"></i>
+            <h3>Data Science Bootcamp</h3>
+            <p>Hands-on certification in data analysis, visualization, and Python-based analytics workflows.</p>
+          </div>
+          <div class="cert-card">
+            <i class="fa-solid fa-certificate"></i>
+            <h3>IoT Development</h3>
+            <p>Project-based certification for IoT systems, sensors, and embedded edge computing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-resume" id="resume">
+      <div class="container reveal">
+        <div class="resume-callout">
+          <div>
+            <span class="section-label">Resume</span>
+            <h2>Download My CV</h2>
+            <p>Get a PDF version of my latest resume with project highlights, technical skills, and academic experience.</p>
+          </div>
+          <a class="btn btn-secondary" href="#" download="Chandrashekar_Resume.pdf">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact">
+      <div class="container section-grid reveal-group">
+        <div class="contact-info reveal">
+          <span class="section-label">Contact</span>
+          <h2>Get In Touch</h2>
+          <p>Interested in collaborating on AI, DS, or IoT projects? Reach out via email or connect on LinkedIn and GitHub.</p>
+          <div class="contact-details">
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:chandrashekar@example.com">chandrashekar@example.com</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/chandrashekar" target="_blank" rel="noreferrer">linkedin.com/in/chandrashekar</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-github"></i>
+              <a href="https://github.com/chandrashekar" target="_blank" rel="noreferrer">github.com/chandrashekar</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" action="mailto:chandrashekar@example.com" method="post" enctype="text/plain">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your Name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner reveal">
+      <p>© 2026 Chandrashekar. Built for AI & Data Science portfolio.</p>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/chandrashekar" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/chandrashekar" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+        <a href="https://twitter.com" target="_blank" rel="noreferrer"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
